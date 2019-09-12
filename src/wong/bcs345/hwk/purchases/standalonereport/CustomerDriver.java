@@ -115,7 +115,7 @@ public class CustomerDriver {
 			writeReport.printf("%15.0f", totalQuantity);
 			writeReport.printf("%15.2f\n", totalCost);
 
-			System.out.printf("Finished writing to ", fileName);
+			System.out.printf("Finished writing to %s.", outputFileName);
 			
 			writeReport.close();
 			fileScanner.close();
